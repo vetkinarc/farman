@@ -1,4 +1,4 @@
 @echo off
 cls
-ipconfig /all
+ipconfig /all | find ".1"
 pause
